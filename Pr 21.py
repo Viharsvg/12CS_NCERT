@@ -4,6 +4,15 @@ o UPDATE table to modify data
 o ORDER By to display data in ascending / descending order
 o DELETE to remove tuple(s)
 o GROUP BY and find the min, max, sum, count and average'''
+--create database
+create database studentsinfo;
+
+--show database to check that database is created or not
+show databases;
+
+--now we can use database;
+use database studentsinfo;
+
 -- Create a student table
 CREATE TABLE IF NOT EXISTS student (
     student_id INT PRIMARY KEY,
